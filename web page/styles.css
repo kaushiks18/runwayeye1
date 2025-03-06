@@ -114,24 +114,24 @@ footer {
     color: #000;
 }
 
-#contact {
+#contact, #booking {
     padding: 50px 20px;
     text-align: center;
     background: #fff;
     color: #000;
 }
 
-#contact form {
+#contact form, #booking form {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#contact label {
+#contact label, #booking label {
     margin-top: 10px;
 }
 
-#contact input, #contact textarea {
+#contact input, #contact textarea, #booking input, #booking textarea {
     width: 100%;
     max-width: 500px;
     padding: 10px;
@@ -140,7 +140,7 @@ footer {
     border-radius: 5px;
 }
 
-#contact button {
+#contact button, #booking button {
     background: #0b0001;
     color: #fff;
     padding: 10px 20px;
@@ -150,6 +150,6 @@ footer {
     cursor: pointer;
 }
 
-#contact button:hover {
+#contact button:hover, #booking button:hover {
     background: #333;
 }
